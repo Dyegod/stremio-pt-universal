@@ -1,0 +1,16 @@
+{
+  "id": "org.gleydson.stremio-pt-universal",
+  "version": "2.0.0",
+  "name": "Stremio PT Universal",
+  "description": "Addon Stremio que traduz títulos, sinopses e gêneros (exemplo estático).",
+  "resources": ["meta", "catalog"],
+  "types": ["movie", "series", "episode"],
+  "idPrefixes": [""],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "exemplo",
+      "name": "Filmes Traduzidos"
+    }
+  ]
+}

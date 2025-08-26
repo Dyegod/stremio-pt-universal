@@ -1,0 +1,45 @@
+
+---
+
+## 4️⃣ Melhorias Avançadas no Código
+
+1. **Fallback universal** usando OMDB ou outros catálogos.
+2. **Interceptação de metadados** para qualquer addon instalado.
+3. **Cache eficiente** para todos os textos traduzidos.
+4. **Estrutura modular** para adicionar facilmente novos catálogos e APIs de tradução.
+5. **Logs detalhados** para monitorar traduções.
+
+---
+
+## 5️⃣ Preparando para Publicação
+
+1. Hospede o addon:
+   - Pode ser no **GitHub Pages**, **Vercel**, **Netlify** ou **servidor próprio**.
+   - Certifique-se de que o endpoint `/manifest.json` é público.
+
+2. Verifique o **manifest**:
+   - `id` único.
+   - `version` atualizada.
+   - `name` e `description` claros.
+
+3. Teste no Stremio:
+   - Adicione o URL do manifest.
+   - Confirme que títulos, sinopses e gêneros são traduzidos corretamente.
+
+4. Enviar para a central de addons (opcional):
+   - Stremio aceita submissão via GitHub ou URL do manifest.
+   - Leia as regras oficiais: [Stremio Addon Guide](https://www.stremio.com/addon-sdk)
+
+---
+
+Se você quiser, posso **gerar todo o código final pronto para publicação** com:  
+
+- **Cache otimizado**  
+- **Fallback inteligente para qualquer addon**  
+- **Exemplos de catálogos reais**  
+- **Manifest totalmente pronto**  
+- **README.md completo**  
+
+Assim, você terá um **addon plug-and-play pronto para publicar**.  
+
+Quer que eu faça isso agora?
